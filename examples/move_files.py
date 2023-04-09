@@ -3,9 +3,9 @@ import shutil
 import json
 
 # set the directory path
-dir_path = "/experiments/zubair/shapenet/couch"
-couch_dir = os.path.join(dir_path, 'couch')
+dir_path = "/experiments/zubair/shapenet/models"
 
+couch_dir ="/experiments/zubair/shapenet/couch"
 os.makedirs(couch_dir, exist_ok=True)
 json_path = "/home/ubuntu/zubair/Diffusion-SDF/train_sdf/data/splits/couch_all.json"
 # load the JSON file
