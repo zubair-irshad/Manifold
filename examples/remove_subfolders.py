@@ -28,7 +28,7 @@ import json
 import os
 
 # Define the path to the JSON file and the main folder
-json_path = "/home/ubuntu/Diffusion-SDF/train_sdf/data/splits/couch_all.json"
+json_path = "/home/ubuntu/zubair/Diffusion-SDF/train_sdf/data/splits/couch_all.json"
 main_folder = "/experiments/zubair/shapenet/models"
 
 
