@@ -17,6 +17,6 @@ for subfolder in data['acronym']['Couch']:
     obj_path = os.path.join(dir_path, subfolder + '.obj')
     mtl_path = os.path.join(dir_path, subfolder + '.mtl')
     if os.path.exists(obj_path):
-        shutil.move(dir_path, 'couch')
+        shutil.move(obj_path, couch_dir)
     if os.path.exists(mtl_path):
-        shutil.move(dir_path, 'couch')
+        shutil.move(mtl_path, couch_dir)
