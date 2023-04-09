@@ -46,4 +46,5 @@ for file in os.listdir(main_folder):
     # Check if the subfolder is in the list of selected folders
     if name not in selected_folders:
         # If not, remove the subfolder and all its contents
-        os.system("rm -rf {}".format(file))
+        file_to_remove = os.path.join(main_folder, file)
+        os.system("rm {}".format(file_to_remove))
