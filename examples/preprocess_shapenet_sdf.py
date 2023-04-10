@@ -9,6 +9,7 @@ import traceback
 
 import os
 os.environ['PYOPENGL_PLATFORM'] = 'egl'
+os.environ['DISPLAY'] = ':0'
 import sys
 # sys.path.append('/home/zubairirshad/Manifold/mesh_to_sdf')
 sys.path.append('/home/ubuntu/zubair/Manifold/mesh_to_sdf')
