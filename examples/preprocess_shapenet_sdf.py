@@ -7,8 +7,8 @@ import numpy as np
 from multiprocessing import Pool
 import traceback
 
-# import os
-# os.environ['PYOPENGL_PLATFORM'] = 'egl'
+import os
+os.environ['PYOPENGL_PLATFORM'] = 'egl'
 import sys
 # sys.path.append('/home/zubairirshad/Manifold/mesh_to_sdf')
 sys.path.append('/home/ubuntu/zubair/Manifold/mesh_to_sdf')
@@ -17,7 +17,7 @@ import random
 from utils import *
 from pathlib import Path
 from os import path
-import open3d as o3d
+# import open3d as o3d
 # DATAFILES_FOLDER = '/home/zubairirshad/Downloads/couch'
 # SAVE_FOLDER = '/home/zubairirshad/Downloads/couch_sdf'
 
