@@ -17,8 +17,11 @@ from utils import *
 from pathlib import Path
 from os import path
 import open3d as o3d
-DATAFILES_FOLDER = '/home/zubairirshad/Downloads/couch'
-SAVE_FOLDER = '/home/zubairirshad/Downloads/couch_sdf'
+# DATAFILES_FOLDER = '/home/zubairirshad/Downloads/couch'
+# SAVE_FOLDER = '/home/zubairirshad/Downloads/couch_sdf'
+
+DATAFILES_FOLDER = '/experiments/zubair/shapenet/couch'
+SAVE_FOLDER = '/experiments/zubair/shapenet/couch_sdf'
 SDF_POINT_CLOUD_SIZE = 235000 # For DeepSDF point clouds (CREATE_SDF_CLOUDS)
 # POINT_CLOUD_SAMPLE_SIZE = 64**3 # For uniform and surface points (CREATE_UNIFORM_AND_SURFACE)
 
