@@ -162,7 +162,7 @@ def process_model_files():
             sdf_save_dirs.append(save_folder_instance)
             # process_model_file(path_to_mesh_model, save_folder_instance)
 
-    worker_count = 20
+    worker_count = 64
     print("Using {:d} processes.".format(worker_count))
     pool = Pool(worker_count)
     progress = tqdm(total=len(total_files))
