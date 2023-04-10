@@ -10,7 +10,8 @@ import traceback
 # import os
 # os.environ['PYOPENGL_PLATFORM'] = 'egl'
 import sys
-sys.path.append('/home/zubairirshad/Manifold/mesh_to_sdf')
+# sys.path.append('/home/zubairirshad/Manifold/mesh_to_sdf')
+sys.path.append('/home/ubuntu/zubair/Manifold/mesh_to_sdf')
 from mesh_to_sdf import get_surface_point_cloud, scale_to_unit_cube, scale_to_unit_sphere, BadMeshException, sample_sdf_near_surface
 import random
 from utils import *
